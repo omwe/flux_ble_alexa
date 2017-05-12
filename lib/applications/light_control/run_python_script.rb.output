@@ -1,0 +1,221 @@
+run_python_script.rb: process with pid 8965 started.
+run_python_script.rb: process with pid 9005 started.
+run_python_script.rb: process with pid 9045 started.
+run_python_script.rb: process with pid 9336 started.
+run_python_script.rb: process with pid 9372 started.
+run_python_script.rb: process with pid 9444 started.
+run_python_script.rb: process with pid 9482 started.
+run_python_script.rb: process with pid 9518 started.
+run_python_script.rb: process with pid 903 started.
+run_python_script.rb: process with pid 842 started.
+run_python_script.rb: process with pid 898 started.
+run_python_script.rb: process with pid 939 started.
+run_python_script.rb: process with pid 980 started.
+run_python_script.rb: process with pid 1044 started.
+run_python_script.rb: process with pid 1087 started.
+run_python_script.rb: process with pid 1176 started.
+run_python_script.rb: process with pid 1219 started.
+No handlers could be found for logger "pygatt.backends.gatttool.gatttool"
+Traceback (most recent call last):
+  File "/home/pi/ble/exe/light_off", line 10, in <module>
+    device = adapter.connect('80:30:dc:d9:5a:a8')
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 384, in connect
+    raise NotConnectedError(message)
+pygatt.exceptions.NotConnectedError: Timed out connecting to 80:30:dc:d9:5a:a8 after 5.0 seconds.
+run_python_script.rb: process with pid 1261 started.
+run_python_script.rb: process with pid 1299 started.
+run_python_script.rb: process with pid 1338 started.
+run_python_script.rb: process with pid 1413 started.
+run_python_script.rb: process with pid 1472 started.
+run_python_script.rb: process with pid 2215 started.
+run_python_script.rb: process with pid 2254 started.
+run_python_script.rb: process with pid 2354 started.
+run_python_script.rb: process with pid 2787 started.
+run_python_script.rb: process with pid 2831 started.
+run_python_script.rb: process with pid 3037 started.
+run_python_script.rb: process with pid 3096 started.
+run_python_script.rb: process with pid 3138 started.
+run_python_script.rb: process with pid 3274 started.
+run_python_script.rb: process with pid 3317 started.
+run_python_script.rb: process with pid 3359 started.
+run_python_script.rb: process with pid 3786 started.
+run_python_script.rb: process with pid 3825 started.
+run_python_script.rb: process with pid 4112 started.
+run_python_script.rb: process with pid 4188 started.
+run_python_script.rb: process with pid 4896 started.
+run_python_script.rb: process with pid 4955 started.
+run_python_script.rb: process with pid 5388 started.
+run_python_script.rb: process with pid 7545 started.
+run_python_script.rb: process with pid 7585 started.
+run_python_script.rb: process with pid 8227 started.
+run_python_script.rb: process with pid 790 started.
+run_python_script.rb: process with pid 839 started.
+run_python_script.rb: process with pid 922 started.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 125, in run
+    event_index = self._connection.expect(patterns, timeout=.5)
+  File "/usr/local/lib/python2.7/dist-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/local/lib/python2.7/dist-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/local/lib/python2.7/dist-packages/pexpect/expect.py", line 99, in expect_loop
+    incoming = spawn.read_nonblocking(spawn.maxread, timeout)
+  File "/usr/local/lib/python2.7/dist-packages/pexpect/pty_spawn.py", line 439, in read_nonblocking
+    r, w, e = select_ignore_interrupts([self.child_fd], [], [], 0)
+  File "/usr/local/lib/python2.7/dist-packages/pexpect/utils.py", line 138, in select_ignore_interrupts
+    return select.select(iwtd, owtd, ewtd, timeout)
+error: (9, 'Bad file descriptor')
+
+run_python_script.rb: process with pid 964 started.
+run_python_script.rb: process with pid 1006 started.
+run_python_script.rb: process with pid 1047 started.
+run_python_script.rb: process with pid 1143 started.
+run_python_script.rb: process with pid 1185 started.
+run_python_script.rb: process with pid 1646 started.
+run_python_script.rb: process with pid 1776 started.
+run_python_script.rb: process with pid 2401 started.
+run_python_script.rb: process with pid 2444 started.
+run_python_script.rb: process with pid 2679 started.
+run_python_script.rb: process with pid 2786 started.
+run_python_script.rb: process with pid 3497 started.
+run_python_script.rb: process with pid 3587 started.
+run_python_script.rb: process with pid 4177 started.
+run_python_script.rb: process with pid 4255 started.
+run_python_script.rb: process with pid 4313 started.
+run_python_script.rb: process with pid 4419 started.
+run_python_script.rb: process with pid 5065 started.
+run_python_script.rb: process with pid 5169 started.
+run_python_script.rb: process with pid 5615 started.
+run_python_script.rb: process with pid 5657 started.
+run_python_script.rb: process with pid 5845 started.
+run_python_script.rb: process with pid 6005 started.
+No handlers could be found for logger "pygatt.backends.gatttool.gatttool"
+Traceback (most recent call last):
+  File "/home/pi/ble/exe/light_off", line 10, in <module>
+    device = adapter.connect('80:30:dc:d9:5a:a8')
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 384, in connect
+    raise NotConnectedError(message)
+pygatt.exceptions.NotConnectedError: Timed out connecting to 80:30:dc:d9:5a:a8 after 5.0 seconds.
+run_python_script.rb: process with pid 6044 started.
+run_python_script.rb: process with pid 6082 started.
+run_python_script.rb: process with pid 6508 started.
+run_python_script.rb: process with pid 6550 started.
+run_python_script.rb: process with pid 6802 started.
+run_python_script.rb: process with pid 6846 started.
+run_python_script.rb: process with pid 6936 started.
+run_python_script.rb: process with pid 7011 started.
+run_python_script.rb: process with pid 7476 started.
+run_python_script.rb: process with pid 7536 started.
+run_python_script.rb: process with pid 7657 started.
+run_python_script.rb: process with pid 7747 started.
+run_python_script.rb: process with pid 7827 started.
+run_python_script.rb: process with pid 7870 started.
+run_python_script.rb: process with pid 8006 started.
+run_python_script.rb: process with pid 8336 started.
+run_python_script.rb: process with pid 8522 started.
+run_python_script.rb: process with pid 8609 started.
+run_python_script.rb: process with pid 8771 started.
+run_python_script.rb: process with pid 8867 started.
+run_python_script.rb: process with pid 9313 started.
+run_python_script.rb: process with pid 9356 started.
+run_python_script.rb: process with pid 9627 started.
+run_python_script.rb: process with pid 9749 started.
+run_python_script.rb: process with pid 10348 started.
+run_python_script.rb: process with pid 10410 started.
+run_python_script.rb: process with pid 10481 started.
+run_python_script.rb: process with pid 10523 started.
+run_python_script.rb: process with pid 10565 started.
+run_python_script.rb: process with pid 10657 started.
+run_python_script.rb: process with pid 11383 started.
+run_python_script.rb: process with pid 11423 started.
+run_python_script.rb: process with pid 12068 started.
+run_python_script.rb: process with pid 12159 started.
+run_python_script.rb: process with pid 13308 started.
+run_python_script.rb: process with pid 13395 started.
+run_python_script.rb: process with pid 13454 started.
+run_python_script.rb: process with pid 13546 started.
+run_python_script.rb: process with pid 13659 started.
+run_python_script.rb: process with pid 13780 started.
+run_python_script.rb: process with pid 14257 started.
+run_python_script.rb: process with pid 14333 started.
+run_python_script.rb: process with pid 14476 started.
+run_python_script.rb: process with pid 14539 started.
+run_python_script.rb: process with pid 14643 started.
+run_python_script.rb: process with pid 14704 started.
+run_python_script.rb: process with pid 15171 started.
+run_python_script.rb: process with pid 15214 started.
+run_python_script.rb: process with pid 15405 started.
+run_python_script.rb: process with pid 15464 started.
+run_python_script.rb: process with pid 15555 started.
+run_python_script.rb: process with pid 15615 started.
+run_python_script.rb: process with pid 15657 started.
+run_python_script.rb: process with pid 15696 started.
+run_python_script.rb: process with pid 16436 started.
+run_python_script.rb: process with pid 16494 started.
+No handlers could be found for logger "pygatt.backends.gatttool.gatttool"
+Traceback (most recent call last):
+  File "/home/pi/ble/exe/light_off", line 10, in <module>
+    device = adapter.connect('80:30:dc:d9:5a:a8')
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 384, in connect
+    raise NotConnectedError(message)
+pygatt.exceptions.NotConnectedError: Timed out connecting to 80:30:dc:d9:5a:a8 after 5.0 seconds.
+run_python_script.rb: process with pid 16538 started.
+No handlers could be found for logger "pygatt.backends.gatttool.gatttool"
+Traceback (most recent call last):
+  File "/home/pi/ble/exe/light_on", line 10, in <module>
+    device = adapter.connect('80:30:dc:d9:5a:a8')
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 384, in connect
+    raise NotConnectedError(message)
+pygatt.exceptions.NotConnectedError: Timed out connecting to 80:30:dc:d9:5a:a8 after 5.0 seconds.
+run_python_script.rb: process with pid 16576 started.
+run_python_script.rb: process with pid 17209 started.
+run_python_script.rb: process with pid 17318 started.
+run_python_script.rb: process with pid 17766 started.
+run_python_script.rb: process with pid 17842 started.
+run_python_script.rb: process with pid 17996 started.
+run_python_script.rb: process with pid 18108 started.
+run_python_script.rb: process with pid 18199 started.
+run_python_script.rb: process with pid 18242 started.
+run_python_script.rb: process with pid 18673 started.
+run_python_script.rb: process with pid 18715 started.
+run_python_script.rb: process with pid 18937 started.
+run_python_script.rb: process with pid 18998 started.
+run_python_script.rb: process with pid 19140 started.
+run_python_script.rb: process with pid 19198 started.
+No handlers could be found for logger "pygatt.backends.gatttool.gatttool"
+Traceback (most recent call last):
+  File "/home/pi/ble/exe/light_off", line 10, in <module>
+    device = adapter.connect('80:30:dc:d9:5a:a8')
+  File "/usr/local/lib/python2.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 384, in connect
+    raise NotConnectedError(message)
+pygatt.exceptions.NotConnectedError: Timed out connecting to 80:30:dc:d9:5a:a8 after 5.0 seconds.
+run_python_script.rb: process with pid 19241 started.
+run_python_script.rb: process with pid 19279 started.
+run_python_script.rb: process with pid 19892 started.
+run_python_script.rb: process with pid 19934 started.
+run_python_script.rb: process with pid 20036 started.
+run_python_script.rb: process with pid 20094 started.
+run_python_script.rb: process with pid 20619 started.
+run_python_script.rb: process with pid 20677 started.
+run_python_script.rb: process with pid 20887 started.
+run_python_script.rb: process with pid 20945 started.
+run_python_script.rb: process with pid 21003 started.
+run_python_script.rb: process with pid 21061 started.
+run_python_script.rb: process with pid 21490 started.
+run_python_script.rb: process with pid 21692 started.
+run_python_script.rb: process with pid 21768 started.
+run_python_script.rb: process with pid 21810 started.
+run_python_script.rb: process with pid 21873 started.
+run_python_script.rb: process with pid 21981 started.
+run_python_script.rb: process with pid 22663 started.
+run_python_script.rb: process with pid 22741 started.
+run_python_script.rb: process with pid 23415 started.
+run_python_script.rb: process with pid 23519 started.
+run_python_script.rb: process with pid 23925 started.
+run_python_script.rb: process with pid 23968 started.
+run_python_script.rb: process with pid 24224 started.
+run_python_script.rb: process with pid 24283 started.
+run_python_script.rb: process with pid 24355 started.

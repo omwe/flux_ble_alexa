@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# load rvm ruby
+source /usr/local/rvm/environments/ruby-2.3.0@thin_server
+
+ruby /home/pi/ble/exe/start_server

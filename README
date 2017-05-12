@@ -1,0 +1,4 @@
+This repository contains the files necessary to control a Flux BLE bulb with the Alexa skills kit.
+
+Note, the Alexa skill is written on the Amazon Developer interface.
+This project runs on a Raspberry Pi behind an HTTPS web server.
